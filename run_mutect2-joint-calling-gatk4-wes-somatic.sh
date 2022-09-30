@@ -1,0 +1,1 @@
+snakemake -s scripts/mutect2-joint-calling-gatk4-wes-somatic.smk -j 999 --cluster "sbatch -A sduvarcall_slim --time 24:00:00"
